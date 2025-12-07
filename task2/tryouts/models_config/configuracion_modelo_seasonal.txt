@@ -1,0 +1,14 @@
+Model Summary for Stacked Ensemble: 
+key                                        value
+-----------------------------------------  ----------------
+Stacking strategy                          cross_validation
+Number of base models (used / total)       12/33
+# GBM base models (used / total)           11/26
+# DRF base models (used / total)           1/2
+# DeepLearning base models (used / total)  0/4
+# GLM base models (used / total)           0/1
+Metalearner algorithm                      GLM
+Metalearner fold assignment scheme         Random
+Metalearner nfolds                         5
+Metalearner fold_column
+Custom metalearner hyperparameters         None

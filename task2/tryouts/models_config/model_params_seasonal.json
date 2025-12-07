@@ -1,0 +1,817 @@
+{
+    "model_id": {
+        "default": null,
+        "actual": {
+            "__meta": {
+                "schema_version": 3,
+                "schema_name": "ModelKeyV3",
+                "schema_type": "Key<Model>"
+            },
+            "name": "StackedEnsemble_AllModels_3_AutoML_2_20241226_194059",
+            "type": "Key<Model>",
+            "URL": "/3/Models/StackedEnsemble_AllModels_3_AutoML_2_20241226_194059"
+        },
+        "input": null
+    },
+    "training_frame": {
+        "default": null,
+        "actual": {
+            "__meta": {
+                "schema_version": 3,
+                "schema_name": "FrameKeyV3",
+                "schema_type": "Key<Frame>"
+            },
+            "name": "AutoML_2_20241226_194059_training_py_6_sid_80ce",
+            "type": "Key<Frame>",
+            "URL": "/3/Frames/AutoML_2_20241226_194059_training_py_6_sid_80ce"
+        },
+        "input": {
+            "__meta": {
+                "schema_version": 3,
+                "schema_name": "FrameKeyV3",
+                "schema_type": "Key<Frame>"
+            },
+            "name": "AutoML_2_20241226_194059_training_py_6_sid_80ce",
+            "type": "Key<Frame>",
+            "URL": "/3/Frames/AutoML_2_20241226_194059_training_py_6_sid_80ce"
+        }
+    },
+    "response_column": {
+        "default": null,
+        "actual": {
+            "__meta": {
+                "schema_version": 3,
+                "schema_name": "ColSpecifierV3",
+                "schema_type": "VecSpecifier"
+            },
+            "column_name": "seasonal_vaccine",
+            "is_member_of_frames": null
+        },
+        "input": {
+            "__meta": {
+                "schema_version": 3,
+                "schema_name": "ColSpecifierV3",
+                "schema_type": "VecSpecifier"
+            },
+            "column_name": "seasonal_vaccine",
+            "is_member_of_frames": null
+        }
+    },
+    "validation_frame": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "blending_frame": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "base_models": {
+        "default": [],
+        "actual": [
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_19",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_15",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_6",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_5_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_18",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_16",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_14",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_2_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_21",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_13",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_12",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_1",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_7",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_20",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_3_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_5",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_17",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_4_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_10",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_2",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_4",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_11",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "XRT_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_8",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DRF_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_9",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_1",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_2",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_3",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GLM_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_3",
+                "type": "Key<Keyed>",
+                "URL": null
+            }
+        ],
+        "input": [
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_19",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_15",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_6",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_5_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_18",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_16",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_14",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_2_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_21",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_13",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_12",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_1",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_7",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_20",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_3_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_5",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_17",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_4_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_10",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_2",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_4",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_11",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "XRT_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_8",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DRF_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_9",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_1",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_2",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GBM_grid_1_AutoML_2_20241226_194059_model_3",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "GLM_1_AutoML_2_20241226_194059",
+                "type": "Key<Keyed>",
+                "URL": null
+            },
+            {
+                "__meta": {
+                    "schema_version": 3,
+                    "schema_name": "KeyV3",
+                    "schema_type": "Key<Keyed>"
+                },
+                "name": "DeepLearning_grid_1_AutoML_2_20241226_194059_model_3",
+                "type": "Key<Keyed>",
+                "URL": null
+            }
+        ]
+    },
+    "metalearner_algorithm": {
+        "default": "AUTO",
+        "actual": "glm",
+        "input": "AUTO"
+    },
+    "metalearner_nfolds": {
+        "default": 0,
+        "actual": 5,
+        "input": 5
+    },
+    "metalearner_fold_assignment": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "metalearner_fold_column": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "metalearner_params": {
+        "default": "",
+        "actual": "",
+        "input": ""
+    },
+    "metalearner_transform": {
+        "default": "NONE",
+        "actual": "Logit",
+        "input": "Logit"
+    },
+    "max_runtime_secs": {
+        "default": 0.0,
+        "actual": 77.717,
+        "input": 77.717
+    },
+    "weights_column": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "offset_column": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "custom_metric_func": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "seed": {
+        "default": -1,
+        "actual": 57,
+        "input": 57
+    },
+    "score_training_samples": {
+        "default": 10000,
+        "actual": 10000,
+        "input": 10000
+    },
+    "keep_levelone_frame": {
+        "default": false,
+        "actual": true,
+        "input": true
+    },
+    "export_checkpoints_dir": {
+        "default": null,
+        "actual": null,
+        "input": null
+    },
+    "auc_type": {
+        "default": "AUTO",
+        "actual": "AUTO",
+        "input": "AUTO"
+    },
+    "gainslift_bins": {
+        "default": -1,
+        "actual": -1,
+        "input": -1
+    }
+}
